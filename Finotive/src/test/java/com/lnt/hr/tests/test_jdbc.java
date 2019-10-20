@@ -1,6 +1,7 @@
 package com.lnt.hr.tests;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 import java.util.List;
 
@@ -23,6 +24,7 @@ public class test_jdbc {
 	@Test
 	public void testSomething() throws Exception {
 		List<PRODUCT_DETAIL> list = dao.getProductList();
+		assertNotNull(list);
 		assertEquals(2, list.size());
 	}
 	
