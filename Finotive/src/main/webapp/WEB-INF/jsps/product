@@ -1,0 +1,86 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Foundation | Welcome</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+  <div class="topnav">
+    <a href="home.html">Home</a>
+    <a class="active" href="product.html">Product List</a>
+  
+    <div class="topnav-right">
+      <a  href="Register.html ">Register</a>
+    </div>
+
+    <div class="dropdown">
+            <button class="dropbtn">Login 
+            </button>
+            <div class="dropdown-content">
+              <a href="login.html">User Login</a>
+              <a href="admin.html">Admin Login</a>
+       
+            
+          </div> 
+  </div>
+  </div>
+<section>
+</div>
+<br>
+<br>
+<div>
+<div class="list">
+  <img src="C:\Users\AE206_PC7\Desktop\dshel\laptop.jpg" width="230px" height="130px"><br>
+  <b>Laptops</b><br><br>
+  <form method="get" action="prodinfo.html">
+    <button type="submit" class="form-button" >Buy</button>
+</form>
+
+</div>
+ 
+<div class="list">
+  <img src="C:\Users\AE206_PC7\Desktop\dshel\tv.jpg" width="200px" height="130px"><br>
+  <b>TV</b><br><br>
+  <form method="get" action="prodinfo.html">
+    <button type="submit" class="form-button">Buy</button>
+</form>
+</div>
+ 
+<div class="list">
+  <img src="C:\Users\AE206_PC7\Desktop\dshel\apple.jpg" width="130px" height="130px"><br>
+  <b>Mobiles </b><br><br>
+  <form method="get" action="prodinfo.html">
+    <button type="submit" class="form-button">Buy</button>
+</form>
+ </div>
+
+<div class="list">
+  <img src="C:\Users\AE206_PC7\Desktop\dshel\beats.jpg" width="130px" height="130px"><br>
+  <b>Headphones</b><br><br>
+  <form method="get" action="prodinfo.html">
+    <button type="submit" class="form-button">Buy</button>
+</form>
+ </div>
+
+<div class="list">
+  <img src="C:\Users\AE206_PC7\Desktop\dshel\camera.jpg" width="140px" height="130px"><br>
+  <b>Cameras</b><br><br>
+  <form method="get" action="prodinfo.html">
+    <button type="submit" class="form-button">Buy</button>
+</form>
+</div>
+
+ 
+
+ 
+</div>
+
+ 
+
+</body>
+</html>

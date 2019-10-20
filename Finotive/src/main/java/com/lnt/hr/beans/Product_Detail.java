@@ -10,12 +10,12 @@ import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
 @NamedQueries({
-	@NamedQuery(name="getProductList",query="from PRODUCT_DETAIL")
+	@NamedQuery(name="getProductList",query="from Product_Detail")
 })
 
 @Entity
 @Table(name="PRODUCT_DETAIL")
-public class PRODUCT_DETAIL {
+public class Product_Detail {
 
 	private Integer product_id;
 	private String product_name;
@@ -87,7 +87,7 @@ public class PRODUCT_DETAIL {
 				+ product_brief_details + ", imageblob=" + imageblob + "]";
 	}
 
-	public PRODUCT_DETAIL(Integer product_id, String product_name, String product_cost, String product_all_details,
+	public Product_Detail(Integer product_id, String product_name, String product_cost, String product_all_details,
 			String product_brief_details, Blob imageblob) {
 		super();
 		this.product_id = product_id;
@@ -98,7 +98,7 @@ public class PRODUCT_DETAIL {
 		this.imageblob = imageblob;
 	}
 
-	public PRODUCT_DETAIL() {
+	public Product_Detail() {
 		super();
 	}
 }

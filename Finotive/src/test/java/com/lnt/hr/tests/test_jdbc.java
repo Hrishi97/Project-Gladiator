@@ -11,7 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.lnt.hr.beans.PRODUCT_DETAIL;
+import com.lnt.hr.beans.Product_Detail;
 import com.lnt.hr.daos.ProductDAO;
 
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -23,7 +23,7 @@ public class test_jdbc {
 	
 	@Test
 	public void testSomething() throws Exception {
-		List<PRODUCT_DETAIL> list = dao.getProductList();
+		List<Product_Detail> list = dao.getProductList();
 		assertNotNull(list);
 		assertEquals(2, list.size());
 	}

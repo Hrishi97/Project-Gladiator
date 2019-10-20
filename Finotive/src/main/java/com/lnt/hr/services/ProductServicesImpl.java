@@ -9,7 +9,7 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.lnt.hr.beans.Employees;
-import com.lnt.hr.beans.PRODUCT_DETAIL;
+import com.lnt.hr.beans.Product_Detail;
 import com.lnt.hr.daos.EmpDao;
 import com.lnt.hr.daos.ProductDAO;
 import com.lnt.hr.exceptions.EmpException;
@@ -24,7 +24,13 @@ public class ProductServicesImpl implements ProductServices {
 	private ProductDAO dao;
 	
 	@Override
-	public List<PRODUCT_DETAIL> getProductList() throws FinotiveException {
+	public List<Product_Detail> getProductList() throws FinotiveException {
 		return dao.getProductList();
+	}
+
+	@Override
+	public Product_Detail getProductDetails(Integer productId) throws FinotiveException {
+		// TODO Auto-generated method stub
+		return dao.getProductDetails(productId);
 	}
 }

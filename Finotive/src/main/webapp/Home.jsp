@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h1>L and T Infotech</h1>
-	<a href="empList.hr">View Employee List</a><br/>
-	<a href="registrationPage.hr">Registration Page</a>
+	<a href="productList.hr">View Product List</a><br/>
+	<!-- <a href="registrationPage.hr">Registration Page</a> -->
 </body>
 </html>
